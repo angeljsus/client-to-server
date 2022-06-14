@@ -1,4 +1,4 @@
-# ToolTip
+# Transferencia de datos de tablas Cliente/Servidor
 
 ### Descripción
 Función de transferencia de información de tablas de una aplicación Electron JS.
