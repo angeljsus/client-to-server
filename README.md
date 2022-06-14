@@ -33,11 +33,11 @@ La función permite ejecutar consultas dentro de las tablas necesarias existente
 **Parámetros**
 - **idUsuario** *(string)** : valor del `usuario` del que se extraerá la información.
 - **idProyecto** *(string)** : valor del `proyecto` del que se extraerá la información.
-- **props** *(json)**: objeto contenedor de las propiedades necesarias para el procesamiento y envío de información.
-    - **tablas** *(array)**: objeto contenedor del nombre de las tablas de las cuales se extraerá la información.
-    - **passworZip** *(string)**: contraseña que se le asignará a los archivos comprimidos creados.
-    - **phpFile** *(string)**: dirección a la que se realizarán las peticiones por medio de `POST`.
-    - **totalRegistros** *(number)*: límite de inserciones que se le permitirá realizar a cada archivo comprimido. En caso de no existir este valor, por default será 88250, que es el soportado por el tiempo de ejecución del servidor.
+- **props** *(json)** : objeto contenedor de las propiedades necesarias para el procesamiento y envío de información.
+    - **tablas** *(array)** : objeto contenedor del nombre de las tablas de las cuales se extraerá la información.
+    - **passworZip** *(string)** : contraseña que se le asignará a los archivos comprimidos creados.
+    - **phpFile** *(string)** : dirección a la que se realizarán las peticiones por medio de `POST`.
+    - **totalRegistros** *(number)* : límite de inserciones que se le permitirá realizar a cada archivo comprimido. En caso de no existir este valor, por default será 88250, que es el soportado por el tiempo de ejecución del servidor.
 
 **Resultados**
 
