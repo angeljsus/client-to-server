@@ -1,0 +1,29 @@
+{
+  "name": "client_data_server",
+  "productName": "Proyecto App",
+  "version": "1.0.0",
+  "description": "Aplicación para insertar información almacenada dentro de la aplicación en el servidor de base de datos Mysql por medio de archivos Json comprimidos.",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "keywords": [],
+  "build": {
+    "appId": "client_data_server"
+  },
+  "author": "Ángel Aguilar",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^18.1.0",
+    "electron-builder": "^23.0.3",
+    "electron-reload": "^2.0.0-alpha.1"
+  },
+  "dependencies": {
+    "archiver": "^5.3.0",
+    "archiver-zip-encryptable": "^1.0.10",
+    "fs-extra": "^10.0.1",
+    "os": "^0.1.2",
+    "path": "^0.12.7"
+  }
+}
